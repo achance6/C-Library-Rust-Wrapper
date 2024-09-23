@@ -3,5 +3,12 @@
 version = 3
 
 [[package]]
-name = "Rust-FFI-Wrapper"
+name = "binary"
+version = "0.1.0"
+dependencies = [
+ "wrapper",
+]
+
+[[package]]
+name = "wrapper"
 version = "0.1.0"
